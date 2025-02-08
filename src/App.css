@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.city-input {
+  width: 50%; /* Povećavamo širinu input polja */
+  padding: 10px; /* Dodajemo padding za bolje korisničko iskustvo */
+  font-size: 1.2em; /* Povećavamo veličinu fonta */
+  margin: 20px 0; /* Dodajemo margine iznad i ispod */
+  border-radius: 5px; /* Dodajemo zaobljene ivice */
+  border: 1px solid #ccc; /* Dodajemo obrub */
+}
