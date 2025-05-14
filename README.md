@@ -31,10 +31,14 @@ SkyWatch 2025 is fully responsive and optimized for:
 
 ## 📸 Screenshots
 
-![Desktop View](./desktop-1.png)
-![Weather Results](./desktop-2.png)
-![Mobile View](./mobile.png)
+### Desktop View
+![Desktop View](./screenshot-desktop-1.png)
 
+### Weather Results View
+![Weather Results](./screenshot-desktop-2.png)
+
+### Mobile View
+![Mobile View](./screenshot-mobile.png)
 
 ---
 
