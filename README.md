@@ -31,7 +31,10 @@ SkyWatch 2025 is fully responsive and optimized for:
 
 ## 📸 Screenshots
 
-### Mobile View
+![Desktop View](./desktop01.png)
+
+![Weather Results](./desktop02.png)
+
 ![Mobile View](./mobile.png)
 
 ---
@@ -40,8 +43,8 @@ SkyWatch 2025 is fully responsive and optimized for:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/MarkovicBob/skywatch2025.git
-   cd skywatch2025
+   git clone git@github.com:MarkovicBob/Weather-APP.git
+   cd weather-app
    ```
 
 2. Install dependencies:
