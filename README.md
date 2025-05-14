@@ -1,71 +1,90 @@
-# Getting Started with Create React App
+# 🌤️ SkyWatch 2025
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**SkyWatch 2025** is a responsive weather forecast web application that provides users with real-time weather data and hourly forecasts for any city worldwide.  
+The app is built using **React**, styled with **CSS**, and consumes the **OpenWeatherMap API** for accurate and up-to-date weather data.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🔗 Live Demo
 
-### `npm start`
+👉 [https://skywatch2025.netlify.app](https://skywatch2025.netlify.app)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technologies Used
 
-### `npm test`
+- **Frontend**: React, Vite  
+- **Styling**: CSS (custom styles)  
+- **API**: OpenWeatherMap  
+- **Deployment**: Netlify  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📱 Responsive Design
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+SkyWatch 2025 is fully responsive and optimized for:
+- 🖥️ Desktop and Laptop screens  
+- 📱 Mobile devices  
+- 📱 Tablets  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📸 Screenshots
 
-### `npm run eject`
+### Desktop View
+![Desktop View](./screenshot-desktop-1.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Weather Results View
+![Weather Results](./screenshot-desktop-2.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Mobile View
+![Mobile View](./screenshot-mobile.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## ⚙️ Installation & Usage
 
-## Learn More
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MarkovicBob/skywatch2025.git
+   cd skywatch2025
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Run the app:
+   ```bash
+   npm run dev
+   ```
 
-### Code Splitting
+4. Open in browser:
+   ```
+   http://localhost:5173
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🔑 API Key Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To use this app, sign up at [OpenWeatherMap](https://openweathermap.org/api) and get your API key.  
+Then create a `.env` file in the root folder of your project and add:
 
-### Making a Progressive Web App
+```env
+VITE_WEATHER_API_KEY=your_api_key_here
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📬 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [LinkedIn](https://www.linkedin.com/in/boban-markovic-b820b415a)  
+- Email: sayby19@gmail.com
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📄 License
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Weather-APP
+This project is licensed under the MIT License.
