@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import Weather from "./components/Weather";
 import "./App.css";
+import React, { useState } from "react";
+import Weather from "./components/Weather.jsx";
 
 function App() {
   const [city, setCity] = useState("");
@@ -18,7 +18,7 @@ function App() {
           placeholder="Enter city"
           value={city}
           onChange={handleInputChange}
-          className="city-input" // Dodajemo klasu za input polje
+          className="city-input"
         />
         <Weather city={city} />
       </header>

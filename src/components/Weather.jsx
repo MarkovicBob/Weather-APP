@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 const Weather = ({ city }) => {
@@ -10,7 +10,7 @@ const Weather = ({ city }) => {
     if (city) {
       const fetchWeather = async () => {
         try {
-          const apiKey = "8f4d5585d898fa733714317ae9885a0d";
+          const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
           const weatherApiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
           const forecastApiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`;
 
