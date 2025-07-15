@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
+const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
+
 const Weather = ({ city }) => {
   const [weatherData, setWeatherData] = useState(null);
   const [forecastData, setForecastData] = useState(null);
@@ -10,16 +12,15 @@ const Weather = ({ city }) => {
     if (city) {
       const fetchWeather = async () => {
         try {
-          const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
-          const weatherApiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-          const forecastApiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`;
+const weatherApiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+const forecastApiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`;
 
-          const weatherResponse = await axios.get(weatherApiUrl);
-          const forecastResponse = await axios.get(forecastApiUrl);
+const weatherResponse = await axios.get(weatherApiUrl);
+const forecastResponse = await axios.get(forecastApiUrl);
 
-          setWeatherData(weatherResponse.data);
-          setForecastData(forecastResponse.data);
-          setError(null);
+setWeatherData(weatherResponse.data);
+setForecastData(forecastResponse.data);
+setError(null);
         } catch (err) {
           setWeatherData(null);
           setForecastData(null);
